@@ -16,7 +16,7 @@ Access Your Google Drive Folder using Rclone, Heroku and Google Service Account 
 # Steps
   - Pull or download this repo and push to your private repo. (So you won't expose your SA)
   - Copy SA .json content to <a href="acc.json">acc.json</a> file, and visit URL below.
-  - Then go to https://heroku.com/deploy?template=https://github.com/'yourusername'>/'yourprivatereponame'
+  - Then go to https://heroku.com/deploy?template=https://github.com/'yourusername'/'yourprivatereponame'
   - Heroku can detect your private repo if you have active login on the same browser.
   - Insert your app name, server location and Google Drive folder/Team Drive ID, make sure your .json have access to your folder/Team Drive.
   - Wait for build and done.
