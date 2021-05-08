@@ -23,4 +23,5 @@ Access Your Google Drive Folder via Heroku using Rclone and Google Service Accou
   - Wait for build and done.
 
 # Tip(s)
+  - To change folder, just replace your folder ID in your Heroku App Config Vars and restart your dyno(s)
   - Keep your free heroku account live with <a href="https://cron-job.org">Cron-Job</a>
