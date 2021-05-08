@@ -1,5 +1,5 @@
 # HerokuDriveRclone
-Access Your Google Drive Folder via Heroku using Rclone and Google Service Account (SA)
+  Access Your Google Drive Folder via Heroku using Rclone and Google Service Account (SA)
 
 # Credits 
   - <a href="https://github.com/developeranaz">developeranaz</a>
@@ -23,7 +23,7 @@ Access Your Google Drive Folder via Heroku using Rclone and Google Service Accou
   - Wait for build and done.
 
 # Extra(s)
-  - Setup a basic http atuh for single user with adding `--user` and `--pass` flags to <a href="entrypoint.sh#5">this line</a>
+  - Setup a basic http auth for single user with adding `--user` and `--pass` flags to <a href="entrypoint.sh">this file</a>
   - Example: `--user devsdocs_u --pass devsdocs_p`
   - Go <a href="https://rclone.org/commands/rclone_serve_http/#authentication">here</a> if you want to setup multiple user for your app.
 
